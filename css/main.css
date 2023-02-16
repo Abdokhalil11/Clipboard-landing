@@ -131,7 +131,7 @@ header .container .text p{
     white-space: break-spaces;
 }
 @media (max-width:992px) {
-     .s-heading p{
+    .s-heading p{
         white-space: normal;
     }
 }
