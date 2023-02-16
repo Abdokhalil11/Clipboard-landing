@@ -127,8 +127,16 @@ header .container .text p{
         flex-direction: column;
     }
 }
+.s-heading p{
+    white-space: break-spaces;
+}
+@media (max-width:992px) {
+     .s-heading p{
+        white-space: normal;
+    }
+}
 .home .photo{
-    left:-150px;
+    left:-200px;
     position: relative;
     margin: auto;
     padding-bottom: var(--section-padding);
